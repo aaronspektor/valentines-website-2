@@ -175,6 +175,48 @@
         </div>
         <p class="gallery-item-caption">Us in the rain!</p>
       </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1fDKmIY6PcK9pxhDMx3oapgEolwPr0yxq&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Pork buns in the freezing cold!</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1_4mBZPMkDLybS6Wb4tsGMJWFsi2NOMM-&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Bundled up on my baby's birthday!</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1oRSwzLVTjglNXqh5pLIIPnndaaf68bYu&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Chicken Satay!</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1aygoeMiEBgNfdBqJTKkiCdde66BwORJk&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Lazy days are the best with u!</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1QZQGAjORKvSv3FADlHnvupNdMG6f-JQ7&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Stardew together!</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=14mP4PV79c9UTSm08oAOB1J7BZOscqxxo&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">Fishing with Carl wooo yeaaaa</p>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-image">
+          <img src="https://drive.google.com/thumbnail?id=1M8TZe7G53lkZoKR7Ljtv-TD4SYHgOGu8&sz=w2000" alt="A moment together">
+        </div>
+        <p class="gallery-item-caption">On the shuttle to Greenwich!</p>
+      </div>
     </div>
   </main>
 
@@ -192,6 +234,48 @@
     </div>
   </div>
 
+  <!-- Music Player -->
+  <div class="music-player" id="music-player">
+    <audio id="audio-player" preload="metadata"></audio>
+    <div class="music-player-content">
+      <button class="music-player-toggle" id="music-toggle" aria-label="Toggle music player">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18V5l12-2v13M9 18c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3zm12-3c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+        </svg>
+      </button>
+      <div class="music-player-info" id="music-info">
+        <div class="music-track-name" id="music-track-name">No track selected</div>
+        <div class="music-time" id="music-time">0:00 / 0:00</div>
+      </div>
+      <div class="music-player-controls">
+        <button class="music-btn" id="music-shuffle" aria-label="Shuffle" title="Shuffle">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>
+          </svg>
+        </button>
+        <button class="music-btn" id="music-prev" aria-label="Previous" title="Previous">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </button>
+        <button class="music-btn music-btn-play" id="music-play" aria-label="Play" title="Play">
+          <svg class="play-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          <svg class="pause-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+          </svg>
+        </button>
+        <button class="music-btn" id="music-next" aria-label="Next" title="Next">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
+  <script src="music.js"></script>
 </body>
 </html>
