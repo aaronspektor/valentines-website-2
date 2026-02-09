@@ -21,6 +21,7 @@
     { src: 'audio/What\'s Life Without You_spotdown.org.mp3', title: 'What\'s Life Without You' },
   ];
 
+  
   // ===== INITIALIZATION =====
   const audio = document.getElementById('audio-player');
   const player = document.getElementById('music-player');
